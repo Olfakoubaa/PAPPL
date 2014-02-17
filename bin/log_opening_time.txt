@@ -1,0 +1,15 @@
+/home/dell/Bureau/pgrou-master/samples/metazoan.ph----------261.741 ms
+/home/dell/Bureau/pgrou-master/samples/metazoan.ph----------75.4669 ms
+/home/dell/Bureau/pgrou-master/samples/metazoan.ph----------454.489 ms
+/home/dell/Bureau/pgrou-master/samples/metazoan.ph----------46.331 ms
+/home/dell/Bureau/pgrou-master/samples/metazoan.ph----------100.694 ms
+/home/dell/Bureau/pgrou-master/samples/ERBB_G1-S.ph----------100.335 ms
+/home/dell/Bureau/pgrou-master/samples/metazoan.ph----------56.7582 ms
+/home/dell/Bureau/pgrou-master/samples/metazoan.ph----------428.33 ms
+/home/dell/Bureau/pgrou-master/samples/tcrsig40.ph----------124.492 ms
+/home/dell/Bureau/pgrou-master/samples/metazoan.ph----------268.783 ms
+/home/dell/Bureau/pgrou-master/samples/ERBB_G1-S.ph----------100.086 ms
+/home/dell/Bureau/pgrou-master/samples/metazoan.ph----------276.613 ms
+/home/dell/Bureau/pgrou-master/samples/metazoan.ph----------677.508 ms
+/home/dell/Bureau/pgrou-master/samples/tcrsig40.ph----------150.085 ms
+/home/dell/Bureau/pgrou-master/samples/metazoan.ph----------106.03 ms
