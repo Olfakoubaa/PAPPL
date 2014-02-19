@@ -12,6 +12,7 @@
 #include <sstream>
 #include <time.h> 
 #include <fstream>
+#include <QWidget>
 
 MainWindow* MainWindow::mwThis;
 
@@ -86,6 +87,7 @@ MainWindow::MainWindow()
     QObject::connect(actionDot, SIGNAL(triggered()), this, SLOT(exportDot()));
     QObject::connect(actionForimport, SIGNAL(triggered()), this, SLOT(importXMLMetadata()));
     QObject::connect(actionExportTikzData,SIGNAL(triggered()),this,SLOT(openEditor()));
+    //QObject::connect(actionExportTikzData, SIGNAL(triggered()), this, SLOT(EditTikzData()));
 
     // actions for the menu Edit
     actionUndo = menuEdit->addAction("Undo");
@@ -1056,8 +1058,6 @@ void MainWindow::printStyle() {
         a->getEllipseItem()->setPen(QPen(Qt::black, 3));
         a->getEllipseItem()->setBrush(Qt::NoBrush);
     }
-
-
 }
 
 // hide / show the text area. Called by the signal actionHideShowText
@@ -1160,6 +1160,18 @@ void MainWindow::findFixpoints() {
     this->compute(program, arguments, fileName);
 }
 
+void MainWindow::EditTikzData(){
+/*
+    //ask the user the state which is tested
+    bool ok = false;
+    QString state = QInputDialog::getText(this, "editor", "Which sorts do you want to edit ?", QLineEdit::Normal, QString(), &ok);
+
+    //Button Generate and Cancel
+    bool ok = false;
+    BtnCancel = new QPushButton("&Cancel");
+    */
+
+}
 
 void MainWindow::computeReachability() {
 
@@ -1276,7 +1288,6 @@ void MainWindow::statistics(){
 //open connection settings window
 void MainWindow::openConnection(){
 
-
     ConnectionSettingsWindow = new ConnectionSettings();
     ConnectionSettingsWindow->show();
 }
@@ -1284,12 +1295,9 @@ void MainWindow::openConnection(){
 //open Editor window
 void MainWindow::openEditor(){
 
-
     EditorSettingsWindow = new EditorSettings();
-    EditorSettingsWindow->show();
+   // EditorSettingsWindow->show();
 }
-
-
 
 void MainWindow::openConnectionForm(){
 

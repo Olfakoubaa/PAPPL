@@ -1,8 +1,8 @@
 /****************************************************************************
 ** Meta object code from reading C++ file 'EditorSettings.h'
 **
-** Created: Thu Feb 13 19:52:06 2014
-**      by: The Qt Meta Object Compiler version 63 (Qt 4.8.3)
+** Created: Wed Feb 19 09:45:33 2014
+**      by: The Qt Meta Object Compiler version 63 (Qt 4.8.1)
 **
 ** WARNING! All changes made in this file will be lost!
 *****************************************************************************/
@@ -11,7 +11,7 @@
 #if !defined(Q_MOC_OUTPUT_REVISION)
 #error "The header file 'EditorSettings.h' doesn't include <QObject>."
 #elif Q_MOC_OUTPUT_REVISION != 63
-#error "This file was generated using the moc from 4.8.3. It"
+#error "This file was generated using the moc from 4.8.1. It"
 #error "cannot be used with the include files from this version of Qt."
 #error "(The moc has changed too much.)"
 #endif
@@ -50,7 +50,7 @@ const QMetaObjectExtraData EditorSettings::staticMetaObjectExtraData = {
 };
 
 const QMetaObject EditorSettings::staticMetaObject = {
-    { &QDialog::staticMetaObject, qt_meta_stringdata_EditorSettings,
+    { &QWidget::staticMetaObject, qt_meta_stringdata_EditorSettings,
       qt_meta_data_EditorSettings, &staticMetaObjectExtraData }
 };
 
@@ -68,12 +68,12 @@ void *EditorSettings::qt_metacast(const char *_clname)
     if (!_clname) return 0;
     if (!strcmp(_clname, qt_meta_stringdata_EditorSettings))
         return static_cast<void*>(const_cast< EditorSettings*>(this));
-    return QDialog::qt_metacast(_clname);
+    return QWidget::qt_metacast(_clname);
 }
 
 int EditorSettings::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
 {
-    _id = QDialog::qt_metacall(_c, _id, _a);
+    _id = QWidget::qt_metacall(_c, _id, _a);
     if (_id < 0)
         return _id;
     return _id;
