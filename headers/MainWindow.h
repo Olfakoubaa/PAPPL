@@ -6,6 +6,8 @@
 #include <vector>
 #include "FunctionForm.h"
 #include "EditorSettings.h"
+#include <QWidget>
+
 /**
   * @file MainWindow.h
   * @brief header for the Main class
@@ -20,7 +22,7 @@
   * extends QMainWindow
   *
   */
-class MainWindow : public QMainWindow{
+class MainWindow : public QMainWindow {
 
     Q_OBJECT
 
@@ -155,6 +157,7 @@ protected:
 private :
 
     int displayMode;
+    QPushButton *BtnCancel;
 
 signals:
 
@@ -307,6 +310,12 @@ public slots:
       *
       */
     void computeReachability();
+
+    /**
+      * @brief executes pint program: ph-reach
+      *
+      */
+    void EditTikzData();
 
     /**
       * @brief executes pint program: ph-exec
