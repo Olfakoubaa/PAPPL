@@ -4,7 +4,9 @@
 #include <QtGui>
 #include <QtGui>
 #include "MyArea.h"
-
+#include <QWidget>
+#include <QApplication>
+#include <QtGui>
 
 
 
@@ -22,6 +24,14 @@ public:
 private:
     //button
     QPushButton *m_btn2;
+
+protected:
+
+    /**
+      * @brief pointer to the central area of the window
+      *
+      */
+    QMdiArea* centraleArea;
 
 };
 

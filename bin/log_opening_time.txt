@@ -32,3 +32,6 @@
 /home/emnababd/PAPPL/samples/metazoan.ph----------90.1569 ms
 /home/emnababd/PAPPL/samples/metazoan.ph----------702.156 ms
 /home/emnababd/PAPPL/samples/metazoan.ph----------202.69 ms
+/home/emnababd/PAPPL/samples/metazoan.ph----------94.7176 ms
+/home/emnababd/PAPPL/samples/metazoan.ph----------77.8622 ms
+/home/emnababd/PAPPL/samples/metazoan.ph----------83.7743 ms

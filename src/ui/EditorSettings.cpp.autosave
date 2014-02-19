@@ -1,0 +1,37 @@
+#include "EditorSettings.h"
+#include "MainWindow.h"
+#include <QtGui>
+#include "Area.h"
+#include <QWidget>
+#include <QApplication>
+#include <QtGui>
+#include "MainWindow.h"
+#include <qthread.h>
+#include <iostream>
+#include "IO.h"
+#include <QThread>
+#include <sstream>
+#include "QHBoxLayout"
+
+EditorSettings::EditorSettings(): QWidget()
+{
+    QWidget *nouvelle_fenetre = new QWidget();
+
+   // m_btn2 = new QPushButton("Pimp mon bouton!",nouvelle_fenetre);
+
+    choiceBox = new QGroupBox("Exclusive checkBox");
+    groupLayout = new QVBoxLayout;
+    list<SortPtr> allSorts = this->myPHPtr->getSorts();
+
+
+    nouvelle_fenetre->resize(700,300);
+    nouvelle_fenetre->show();
+}
+
+    //Detroyer
+    EditorSettings::~EditorSettings(){}
+
+   QMdiArea* EditorSettings::getCentraleArea() {
+        return this->centraleArea;
+    }
+
