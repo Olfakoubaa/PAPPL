@@ -73,7 +73,6 @@ ConnectionSettings::ConnectionSettings():
     // Connexions des signaux et des slots
     connect(nbArg, SIGNAL(valueChanged(int)), this, SLOT(buildTable()));
     connect(Save, SIGNAL(clicked()), this, SLOT(testFunctionName()));
-
     connect(Cancel, SIGNAL(clicked()), this, SLOT(quit()));
 
     //Mise en page générale

@@ -2,13 +2,8 @@
 #define EDITORSETTINGS_H
 #include <iostream>
 #include <QtGui>
-#include <QtGui>
-#include "MyArea.h"
 
-
-
-
-class EditorSettings : public QWidget
+class EditorSettings : public QDialog
 {
     Q_OBJECT
 
@@ -17,11 +12,31 @@ public:
     EditorSettings();
     ~EditorSettings();
 
-    QMdiArea* getCentraleArea();
 
 private:
+
+
+    //QWidget *editorWindow;
+
+
+    QWidget *widget;
+    QGroupBox *choiceBox;
+
+    QRadioButton *ch1;
+    QRadioButton *ch2;
+
+    //Mise en page générale
+    QVBoxLayout *globalLayout;
+    QVBoxLayout *layoutTotal;
+    QVBoxLayout *groupLayout;
+    QHBoxLayout *btnLayout;
+
     //button
-    QPushButton *m_btn2;
+    QPushButton *Generate;
+    QPushButton *Cancel;
+    QPushButton *Edit;
+
+    QScrollArea *area;
 
 };
 

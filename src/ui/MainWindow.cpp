@@ -202,7 +202,8 @@ MainWindow::MainWindow()
         this->actionPng->setEnabled(false);
         this->actionDot->setEnabled(false);
         this->actionExportXMLData->setEnabled(false);
-        this->actionExportTikzData->setEnabled(false);
+        //toDo "false"
+        this->actionExportTikzData->setEnabled(true);
         this->actionForimport->setEnabled(false);
         this->actionAdjust->setEnabled(false);
         this->actionZoomOut->setEnabled(false);
@@ -1296,7 +1297,7 @@ void MainWindow::openConnection(){
 void MainWindow::openEditor(){
 
     EditorSettingsWindow = new EditorSettings();
-   // EditorSettingsWindow->show();
+    EditorSettingsWindow->show();
 }
 
 void MainWindow::openConnectionForm(){
@@ -1324,7 +1325,8 @@ void MainWindow::disableMenu(QMdiSubWindow* subwindow){
         this->actionPng->setEnabled(false);
         this->actionDot->setEnabled(false);
         this->actionExportXMLData->setEnabled(false);
-        this->actionExportTikzData->setEnabled(false);
+        //change to false after that
+        this->actionExportTikzData->setEnabled(true);
         this->actionForimport->setEnabled(false);
         this->actionAdjust->setEnabled(false);
         this->actionZoomIn->setEnabled(false);

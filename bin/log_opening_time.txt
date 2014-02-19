@@ -32,3 +32,10 @@
 /home/emnababd/PAPPL/samples/metazoan.ph----------90.1569 ms
 /home/emnababd/PAPPL/samples/metazoan.ph----------702.156 ms
 /home/emnababd/PAPPL/samples/metazoan.ph----------202.69 ms
+/home/dell/Bureau/PAPPL_ph2TikZ/PAPPL/samples/tcrsig94.ph----------643.495 ms
+/home/dell/Bureau/PAPPL_ph2TikZ/PAPPL/samples/tcrsig40.ph----------121.591 ms
+/home/dell/Bureau/PAPPL_ph2TikZ/PAPPL/samples/metazoan.ph----------94.4646 ms
+/home/dell/Bureau/PAPPL_ph2TikZ/PAPPL/samples/metazoan.ph----------49.5074 ms
+/home/dell/Bureau/PAPPL_ph2TikZ/PAPPL/samples/metazoan.ph----------185.15 ms
+/home/dell/Bureau/PAPPL_ph2TikZ/PAPPL/samples/tcrsig40.ph----------567.836 ms
+/home/dell/Bureau/PAPPL_ph2TikZ/PAPPL/samples/metazoan.ph----------49.3989 ms

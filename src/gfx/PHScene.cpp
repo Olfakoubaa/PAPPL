@@ -18,8 +18,8 @@ PHScene::PHScene(PH* _ph) : ph(_ph) {
 
 void PHScene::drawFromSkeleton(void){
 	GVSkeletonGraphPtr gSkeleton = ph->createSkeletonGraph();
-	
-	QList<GVNode> gSkeletonNodes = gSkeleton->nodes();
+
+    QList<GVNode> gSkeletonNodes = gSkeleton->nodes();
 	for(GVNode &gn : gSkeletonNodes){
 		for(SortPtr &s : ph->getSorts()){
 			int nbProcess = (s->getProcesses()).size();
